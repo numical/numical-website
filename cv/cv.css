@@ -1,0 +1,18 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+header, footer {
+    text-align: center;
+}
+
+h2, h3, dt {
+    font-family: serif;
+    font-weight: bold;
+}
+
