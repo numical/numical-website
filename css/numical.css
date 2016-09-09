@@ -14,7 +14,8 @@ body {
 
 header h1 {
     color: black;
-    font: bold Montserrat, sans-serif;
+    font-weight: bold;
+    font-family: Montserrat, sans-serif;
     font-size: 15vw;
     margin: 1vw;
     text-align: center;
@@ -23,17 +24,22 @@ header h1 {
 
 main section {
   width : 90%;
-  margin: auto;
+  margin: 1vh auto;
   text-align: left;
-  padding: 5% 0;
 }
 
 footer {
+  margin: 5vh 0;
   text-align: center;
 }
 
 a {
     color: black;
+}
+
+ul {
+  margin: 0;
+  padding-left: 1.2em;
 }
 
 li {
@@ -45,8 +51,8 @@ li {
 }
 
 .img-container img {
-  max-width: 90%;
-  height: auto;
+  height: 50vh;
+  max-height: 500px;
 }
 
 @media all and (min-width: 540px) and (max-width: 639px) {
@@ -55,9 +61,6 @@ li {
   }
   main section {
     width : 75%;
-  }
-  .img-container img {
-    max-width: 75%;
   }
 }
 
@@ -68,8 +71,8 @@ li {
   main section {
     width : 50%;
   }
-  .img-container img {
-    max-width: 50%;
+  footer {
+    margin: 3vh 0 0;
   }
 }
 
