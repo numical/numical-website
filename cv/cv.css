@@ -44,10 +44,32 @@ h2, h3, dt {
   margin: 0;
 }
 
+img {
+  float: right;
+  height: 2rem;
+}
+
 p {
   margin-bottom: 0;
 }
 
 
+ol {
+  list-style: none;
+}
 
+ol a {
+  text-decoration: none;
+}
 
+ol a:link {
+  color: black;
+}
+
+ol a:hover {
+  text-decoration: underline;
+}
+
+ol a:visited {
+  color: gray;
+}
