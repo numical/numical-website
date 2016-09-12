@@ -23,13 +23,15 @@ header h1 {
 }
 
 main section {
-  width : 90%;
+  width : 75%;
   margin: 1vh auto;
+  font-size: 3vh;
   text-align: left;
 }
 
 footer {
   margin: 5vh 0;
+  font-size: 0.5vh;
   text-align: center;
 }
 
@@ -55,16 +57,7 @@ li {
   max-height: 500px;
 }
 
-@media all and (min-width: 540px) and (max-width: 639px) {
-  header h1 {
-    font-size: 12vw;
-  }
-  main section {
-    width : 75%;
-  }
-}
-
-@media all and (min-width: 640px) {
+@media all and (min-width: 1000px) {
   header h1 {
     font-size: 10vw;
   }
@@ -73,6 +66,7 @@ li {
   }
   footer {
     margin: 3vh 0 0;
+    font-size: 2vh;
   }
 }
 
