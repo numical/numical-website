@@ -4,12 +4,13 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Mike Evans</title>
+  <title>Mike Evans CV</title>
   <meta name="description" content="Mike Evans - Curriculum Vitae">
   <meta name="author" content="Mike Evans - mike.evans@incremental.eu.com">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" media="screen" href="cv.css">
+  <link rel="stylesheet" media="screen" href="display_cv.css">
+  <link rel="stylesheet" media="print" href="print_cv.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <script src="html5shivs.js"></script>
 </head>
@@ -19,7 +20,7 @@
   <header role="banner"><h1>Mike Evans - Curriculum Vitae</h1></header>
 
   <section id="contents">
-    <h2>Contents</h2>
+    <h2>Contents<a href="javascript:window.print()"><img src="print.png" alt="print CV"</><a></h2>
     <ol>
       <li><a href="#profile">Profile</a></li>
       <li><a href="#personal_details">Personal Details</a></li>
@@ -62,7 +63,7 @@ I have architected systems, led technical development teams onshore and offshore
       <dt>Marital Status</dt>
       <dd>Married</dd>
       <dt>Email</dt>
-      <dd class="email">mike.evans@incremental.eu.com</dd>
+      <dd class="email">mike.evans@numical.com</dd>
       <dt>Mobile</dt>
       <dd class="tel">+44 (0)7771 845 842</dd>
       <dt>Home Page</dd>
@@ -365,6 +366,10 @@ The system ran the yard for 5 years after my departure.
     </section>
   </section>
 
-  <footer role="contentinfo"><h1>Mike Evans</h1></footer>
+  <footer>
+    <div class="display">Please feel free to contact me at <a
+         href="mailto:mike.evans@numical.com">mike.evans@numical.com</a> or on 07771 845 842</div>
+    <div class="print">end of Mike Evans CV</div>
+  </footer>
 </body>
 </html>

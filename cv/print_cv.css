@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+header, footer {
+    text-align: center;
+    color: gray;
+}
+
+section {
+  padding: 1vw;
+  margin: 2vw;
+}
+
+#contents {
+  display: none;
+}
+
+section section {
+  padding-top: 0;
+}
+
+section section section {
+  padding: 0;
+  margin: 0;
+}
+
+h2, h3, dt {
+  font-family: serif;
+  font-weight: bold;
+  margin: 0;
+}
+
+footer .display {
+  display: none;
+}
+
+img {
+  display: none;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color : black;
+}
+
