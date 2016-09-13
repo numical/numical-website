@@ -17,10 +17,10 @@
 
 <body>
 
-  <header role="banner"><h1>Mike Evans - Curriculum Vitae</h1></header>
+  <header id="banner" role="banner"><h1>Mike Evans - Curriculum Vitae</h1></header>
 
   <section id="contents">
-    <h2>Contents<a href="javascript:window.print()"><img src="print.png" alt="print CV"</><a></h2>
+    <h2>Contents<a class="hide_if_small" href="javascript:window.print()"><img src="print.png" alt="print CV"</><a></h2>
     <ol>
       <li><a href="#profile">Profile</a></li>
       <li><a href="#personal_details">Personal Details</a></li>
@@ -42,7 +42,7 @@
   </section>
 
   <section id="profile">
-    <h2>Profile<a href="#contents"><img src="home.png" alt="return to Contents"/></a></h2>
+    <h2>Profile<a href="#banner"><img src="home.png" alt="return to Contents"/></a></h2>
 <p>I am a rounded, commercially orientated technical architect and team lead with over 19 years experience of the business of software development in a wide range of different industries.
 I have architected systems, led technical development teams onshore and offshore, and project managed.  My core technical skills are enterprise open-source technologies in Java and JavaScript.  I have applied these under project management methodologies ranging from traditional waterfall, through DSDM to modern agile approaches such as Scrum and XP.</p>
 <p>In addition to my technical skills, I regard as core competences the soft skills of listening hard, communicating well, and motivating others.  I work particularly well at the interface between business and technology. My principle concern is delivery.</p>
@@ -50,8 +50,8 @@ I have architected systems, led technical development teams onshore and offshore
   </section>
 
   <section id="personal_details" class="vcard">
-    <h2>Personal Details<a href="#contents"><img src="home.png" alt="return to Contents"/></a></h2>
-    <dl>
+    <h2>Personal Details<a href="#banner"><img src="home.png" alt="return to Contents"/></a></h2>
+    <dl class="three_cols">
       <dt>Full Name</dt>
       <dd class="n">
         <span class="given-name">Michael</span>
@@ -79,57 +79,73 @@ I have architected systems, led technical development teams onshore and offshore
   </section>
 
   <section id="core_technical_skills">
-    <h2>Core Technical Skills<a href="#contents"><img src="home.png" alt="return to Contents"/></a></h2>
-Java (13+ years)
-Java Enterprise Frameworks (10+years)
-Object and Service Orientated Design (10+ years)
+    <h2>Core Technical Skills<a href="#banner"><img src="home.png" alt="return to Contents"/></a></h2>
+    <div class="three_cols">
+      <div>Java (13+ years)</div>
+      <div>Java Enterprise Frameworks (10+years)</div>
+      <div>Object and Service Orientated Design (10+ years)</div>
+    </div>
   </section>
 
   <section id="qualifications">
-    <h2> Qualifications<a href="#contents"><img src="home.png" alt="return to Contents"/></a></h2>
-CITP, CEng., British Computer Society;
-BEng(Hons) 1 in Naval Architecture, University of Newcastle-upon-Tyne
+    <h2> Qualifications<a href="#banner"><img src="home.png" alt="return to Contents"/></a></h2>
+    <div class="three_cols">
+      <div>CITP, CEng., British Computer Society</div>
+      <div>BEng(Hons) 1 in Naval Architecture, University of Newcastle-upon-Tyne</div>
+    </div>
   </section>
 
   <section id="detailed_technical_skills">
-    <h2>Detailed Technical Skills<a href="#contents"><img src="home.png" alt="return to Contents"/></a></h2>
+    <h2>Detailed Technical Skills<a href="#banner"><img src="home.png" alt="return to Contents"/></a></h2>
     <h3>Project Management</h3>
-      Waterfall 16+ years
-      Agile 11+ years (SCRUM, Kanban, partial XP)
-      DSDM 2+ years
+    <div class="three_cols">
+      <div>Waterfall 16+ years</div>
+      <div>Agile 11+ years (SCRUM, Kanban, partial XP)</div>
+      <div>DSDM 2+ years</div>
+    </div>
     <h3>Frameworks</h3>
-      J(2)EE 11+ years
-      Spring/Other IoC 10+ years
-      OSGi 6+ years
+    <div class="three_cols">
+      <div>J(2)EE 11+ years</div>
+      <div>Spring/Other IoC 10+ years</div>
+      <div>OSGi 6+ years</div>
+    </div>
     <h3>Development</h3>
-      Java 15+ years
-      Eclipse 10+ years
-      (IDE, Plugin development, RCP)
-      Javascript/JQuery 2 years
+    <div class="three_cols">
+      <div>Java 15+ years</div>
+      <div>Eclipse 10+ years (IDE, Plugin development, RCP)</div>
+      <div>Javascript/JQuery 2 years</div>
+    </div>
     <h3>Middleware</h3>
-      J(2)EE Containers 12+ years (IBM Websphere, JBoss, Jetty, Tomcat)
-      ORM 9+ years (Hibernate, JPA, iBatis)
-      Messaging 3+ years (JMS, IBM MQ, SOAP)
+    <div class="three_cols">
+      <div>J(2)EE Containers 12+ years (IBM Websphere, JBoss, Jetty, Tomcat)</div>
+      <div>ORM 9+ years (Hibernate, JPA, iBatis)</div>
+      <div>Messaging 3+ years (JMS, IBM MQ, SOAP)</div>
+    </div>
     <h3>Tooling / Testing</h3>
-      UML 11+ years
-      SOA / XML 11+ years
-      REST / JSON 2+ years
-      Ant/Maven/ Hudson 10+ years
-      JUnit & equivalents 10+ years
-      BDD (1 year)
+    <div class="three_cols">
+      <div>UML 11+ years</div>
+      <div>SOA / XML 11+ years</div>
+      <div>REST / JSON 2+ years</div>
+      <div>Ant/Maven/ Hudson 10+ years</div>
+      <div>JUnit & equivalents 10+ years</div>
+      <div>BDD (1 year)</div>
+    </div>
     <h3>Database / DBMS</h3>
-      SQL-92 15+ years
-      MS SQLServer 12+ years
-      Oracle 8+ years
-      Sybase SQL Server 4+ years
-      PostgreSQL 1 year
+    <div class="three_cols">
+      <div>SQL-92 15+ years</div>
+      <div>MS SQLServer 12+ years</div>
+      <div>Oracle 8+ years</div>
+      <div>Sybase SQL Server 4+ years</div>
+      <div>PostgreSQL 1 year</div>
+      <div>MongoDB 6 months</div>
+    </div>
   </section>
 
   <section id="career_summary">
     <h2> Career Summary</h2>
 
     <section id="sky">
-      <dl><a href="#contents"><img src="home.png" alt="return to Contents"/></a></h2>
+      <dl><a href="#banner"><img src="home.png" alt="return to Contents"/></a></h2>
         <dt>Role</dt>
         <dd>Team Lead & Facilitator</dd>
         <dt>Where</dt>
@@ -150,7 +166,7 @@ BEng(Hons) 1 in Naval Architecture, University of Newcastle-upon-Tyne
     </section>
 
     <section id="vebnet">
-      <dl><a href="#contents"><img src="home.png" alt="return to Contents"/></a></h2>
+      <dl><a href="#banner"><img src="home.png" alt="return to Contents"/></a></h2>
         <dt>Role</dt>
         <dd>Application Architect & Team(s) Lead</dd>
         <dt>Where</dt>
@@ -174,7 +190,7 @@ BEng(Hons) 1 in Naval Architecture, University of Newcastle-upon-Tyne
     </section>
 
     <section id="kraya">
-      <dl><a href="#contents"><img src="home.png" alt="return to Contents"/></a></h2>
+      <dl><a href="#banner"><img src="home.png" alt="return to Contents"/></a></h2>
         <dt>Role</dt>
         <dd>Consultant Architect</dd>
         <dt>Where</dt>
@@ -193,7 +209,7 @@ I supported set-up of the project, both tooling and management methodologies, de
     </section>
 
     <section id="jpmorgan">
-      <dl><a href="#contents"><img src="home.png" alt="return to Contents"/></a></h2>
+      <dl><a href="#banner"><img src="home.png" alt="return to Contents"/></a></h2>
         <dt>Role</dt>
         <dd>Application Architect</dd>
         <dt>Where</dt>
@@ -213,7 +229,7 @@ I designed a new application architecture and oversaw development. This new code
     </section>
 
     <section id="incremental">
-      <dl><a href="#contents"><img src="home.png" alt="return to Contents"/></a></h2>
+      <dl><a href="#banner"><img src="home.png" alt="return to Contents"/></a></h2>
         <dt>Role</dt>
         <dd>Technical Director</dd>
         <dt>Where</dt>
@@ -234,7 +250,7 @@ Please see the <a href="http://www.incremental.eu.com/help/index.htm#screencams"
     </section>
 
     <section id="brightgrey">
-      <dl><a href="#contents"><img src="home.png" alt="return to Contents"/></a></h2>
+      <dl><a href="#banner"><img src="home.png" alt="return to Contents"/></a></h2>
         <dt>Role</dt>
         <dd>Temporary Analyst</dd>
         <dt>Where</dt>
@@ -257,7 +273,7 @@ Please see the <a href="http://www.incremental.eu.com/help/index.htm#screencams"
     </section>
 
     <section id="spektra">
-      <dl><a href="#contents"><img src="home.png" alt="return to Contents"/></a></h2>
+      <dl><a href="#banner"><img src="home.png" alt="return to Contents"/></a></h2>
         <dt>Role</dt>
         <dd>Principal Consultant (Analyst / Solutions Architect / Team Lead)</dd>
         <dt>Where</dt>
@@ -327,7 +343,7 @@ The delivered product was specifically designed to allow the client to continue 
     </section>
 
     <section id="synamic">
-      <dl><a href="#contents"><img src="home.png" alt="return to Contents"/></a></h2>
+      <dl><a href="#banner"><img src="home.png" alt="return to Contents"/></a></h2>
         <dt>Role</dt>
         <dd>Consultant</dd>
         <dt>Where</dt>
@@ -348,7 +364,7 @@ The delivered product was specifically designed to allow the client to continue 
     </section>
 
     <section id="tde">
-      <dl><a href="#contents"><img src="home.png" alt="return to Contents"/></a></h2>
+      <dl><a href="#banner"><img src="home.png" alt="return to Contents"/></a></h2>
         <dt>Role</dt>
         <dd>Teaching Company Associate</dd>
         <dt>Where</dt>

@@ -44,6 +44,15 @@ h2, h3, dt {
   margin: 0;
 }
 
+h3 {
+  padding-top: 0.5rem;
+}
+
+.three_cols {
+  column-count: 3;
+  column-width: 50 rem;
+}
+
 footer .print {
   display: none;
 }
@@ -57,9 +66,18 @@ p {
   margin-bottom: 0;
 }
 
+dd {
+  margin-left: 1rem;
+}
 
 ol {
   list-style: none;
+  padding-left: 1em;
+}
+
+ol ol {
+  list-style: square;
+  padding-left: 2rem;
 }
 
 ol a {
@@ -76,4 +94,10 @@ ol a:hover {
 
 ol a:visited {
   color: gray;
+}
+
+@media (max-width: 999px) {
+  .hide_if_small {
+    display: none;
+  }
 }

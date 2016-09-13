@@ -15,6 +15,7 @@ header, footer {
 section {
   padding: 1vw;
   margin: 2vw;
+  text-align: justify;
 }
 
 #contents {
@@ -36,6 +37,15 @@ h2, h3, dt {
   margin: 0;
 }
 
+h3 {
+  padding-top: 0.5rem;
+}
+
+.three_cols {
+  column-count: 3;
+  column-width: 50 rem;
+}
+
 footer .display {
   display: none;
 }
@@ -46,6 +56,10 @@ img {
 
 p {
   margin-bottom: 0;
+}
+
+dd {
+  margin-left: 1rem;
 }
 
 a {
