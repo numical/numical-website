@@ -53,6 +53,21 @@ h3 {
   column-width: 50 rem;
 }
 
+.example_engagement {
+  border-style: solid;
+  border-color: rgb(241,241,241);   
+  border-width: 2px;
+  padding: 0.5rem; 
+  margin: 0.5rem 0;
+}
+
+.example_engagement:before {
+  content: "Example Engagement:";
+  color: gray;
+  font-family: serif;
+  font-weight: bold;
+}
+
 footer .print {
   display: none;
 }
@@ -63,7 +78,11 @@ img {
 }
 
 p {
-  margin-bottom: 0;
+  margin: 0 0 0.5rem;
+}
+
+dl {
+  margin: 0;
 }
 
 dd {
