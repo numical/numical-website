@@ -24,14 +24,14 @@ header h1 {
 
 main section {
   width : 75%;
-  margin: 1vh auto;
+  margin: 1vw auto;
   font-size: 3vw;
   text-align: left;
 }
 
 footer {
   margin: 5vh 0;
-  font-size: 0.5vh;
+  font-size: 0.5vw;
   text-align: center;
 }
 
@@ -66,7 +66,7 @@ li {
   }
   footer {
     margin: 3vh 0 0;
-    font-size: 2vh;
+    font-size: 2vw;
   }
 }
 
