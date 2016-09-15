@@ -19,7 +19,7 @@ body {
 section {
   background-color:white;
   padding: 1vw;
-  margin: 2vw;
+  margin: 1rem 2vw;
   border-radius: 1rem;
 }
 
@@ -28,12 +28,11 @@ section section {
   border-width: 2px;
   border-radius: 0;
   border-style: solid;
-  padding-top: 0;
 }
 
 section section section {
   border-style: none;
-  padding: 0;
+  padding: 1rem 0 0;
   margin: 0;
 }
 
@@ -46,6 +45,11 @@ h2, h3, dt {
 
 h3 {
   padding-top: 0.5rem;
+}
+
+.two_cols {
+  column-count: 2;
+  column-width: 75 rem;
 }
 
 .three_cols {
@@ -66,6 +70,11 @@ h3 {
   color: gray;
   font-family: serif;
   font-weight: bold;
+}
+
+.duration {
+  font-size: small;
+  color: gray;
 }
 
 footer .print {
@@ -96,7 +105,7 @@ ol {
 
 ol ol {
   list-style: square;
-  padding-left: 2rem;
+  padding-left: 1.5rem;
 }
 
 ol a {
@@ -118,5 +127,45 @@ ol a:visited {
 @media (max-width: 999px) {
   .hide_if_small {
     display: none;
+  }
+}
+
+@media print {
+  html {
+    font-size: 0.8rem;
+    text-align: justify;
+  }
+
+  body {
+    background-color: white;
+  }
+
+  section {
+    margin: 1rem 0;
+  }
+
+  #contents {
+    display: none;
+  }
+
+  #career_summary, #vebnet, #brightgrey, #synamic {
+    page-break-before: always;
+  }
+
+  img {
+    display: none;
+  }
+
+  a {
+    text-decoration: none;
+    color : black;
+  }
+
+  footer .display {
+    display: none;
+  }
+
+  footer .print {
+    display: inline;
   }
 }
