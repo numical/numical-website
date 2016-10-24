@@ -50,6 +50,11 @@ ul {
 
 li {
   list-style-type: square;
+  padding-bottom: 0.25em;
+}
+
+code {
+  font-size: 1vw;
 }
 
 .img-container {
