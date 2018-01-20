@@ -13,17 +13,17 @@ body {
 }
 
 header h1 {
-    color: black;
-    font-weight: bold;
-    font-family: Montserrat, sans-serif;
-    font-size: 15vw;
-    margin: 1vw;
-    text-align: center;
-    text-transform: uppercase;
-  }
+  color: black;
+  font-weight: bold;
+  font-family: Montserrat, sans-serif;
+  font-size: 15vw;
+  margin: 1vw;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 header h1 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 main section {
@@ -39,8 +39,13 @@ footer {
   text-align: center;
 }
 
+h3 a {
+  color: #666;
+  font-size: medium;
+}
+
 a {
-    color: black;
+  color: black;
 }
 
 ul {
