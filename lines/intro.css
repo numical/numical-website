@@ -1,0 +1,43 @@
+#intro {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  font-color: black;
+}
+
+#graphic {
+  display: flex;
+  flex-basis: 400px;
+  min-height: 400px;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+#textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  font-size: xx-large;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.fade-in {
+  opacity: 1;
+  transition: all 1s ease
+}
+
+.fade-out {
+  opacity: 0;
+  transition: all 1s ease
+}
+
+
+@media screen and (max-width: 640px) {
+  body {
+    flex-direction: column;
+  }
+}

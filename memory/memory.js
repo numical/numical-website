@@ -3,7 +3,6 @@ var RESOURCES = {
     MENAGERIE : [
         {id:"BabyTeddy", src:"./menagerie/baby_teddy.png" },
         {id:"Bunny", src:"./menagerie/bunny.png" },
-        {id:"Cucumber", src:"./menagerie/cucumber.png" },
         {id:"Dolly", src:"./menagerie/dolly.png" },
         {id:"George", src:"./menagerie/george.png" },
         {id:"Kanga", src:"./menagerie/kanga.png" },

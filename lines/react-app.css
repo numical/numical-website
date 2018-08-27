@@ -1,0 +1,44 @@
+.container {
+  background-color: black;
+}
+
+.graph {
+  display: flex;
+  flex-basis: 400px;
+  min-height: 400px;
+  max-height: 400px;
+  overflow: hidden;
+  margin: 5px;
+}
+
+.model {
+  display: flex;
+}
+
+.group {
+  flex: 1 1 auto;
+  border: 2px solid white;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  font-family: sans-serif;
+}
+
+.element {
+  margin: 5px 1px;
+  padding: 5px;
+  border: 1px solid white;
+  color: black;
+  background-color: white;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  float: right;
+  margin: 0px 5px;
+}
+
+h2 {
+  font-size: large;
+}

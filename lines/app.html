@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>MoneyLines</title>
+    <link rel=stylesheet type='text/css' href='intro.css'></link>
+    <link rel=stylesheet type='text/css' href='react-app.css'></link>
+  </head>
+  <body>
+    <div id='intro'>
+      <div id='graphic'></div>
+      <div id='textContainer'>
+        <div id='text' class='hidden'></div>
+        <form id='form' class='hidden'>
+          <div>
+            <label for="age">Your age:</label>
+            <select id="age" name="age"></select>
+          </div>
+          <div>
+            <label for="income">Your income: £</label>
+            <select id="income" name="income"></select>
+            <label for="income_interval">per</label>
+            <select id="income_interval" name="income_interval">
+              <option value="YEAR" selected>year</option>
+              <option value="MONTH">month</option>
+              <option value="WEEK">week</option>
+              <option value="DAY">day</option>
+            </select>
+          <div>
+            <input type="button" value="OK" onclick='startCalculation()'></input>
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript" src="options.js" charset="utf-8"></script>
+    <script type="text/javascript" src="svg.js" charset="utf-8"></script>
+    <script type="module" src="intro.js" charset="utf-8"></script>
+    <script type="module" src="assumptions.js"  charset="utf-8"></script>
+    <script type="module" src="react-app.js"  charset="utf-8"></script>
+  </body>
+</html>
