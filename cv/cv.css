@@ -152,15 +152,19 @@ ol a:visited {
     margin: 1rem 0;
   }
 
+  div {
+    break-inside: avoid;
+  }
+
   #contents {
     display: none;
   }
 
-  #career_summary, #incremental {
+  #career_summary, #kraya, #brightgrey, #synamic {
     page-break-before: always;
   }
 
-  img {
+  img  {
     display: none;
   }
 
