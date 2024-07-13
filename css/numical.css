@@ -75,6 +75,10 @@ code {
   text-align: center;
 }
 
+.small {
+  font-size: small;
+}
+
 @media all and (min-width: 1000px) {
   header h1 {
     font-size: 8vw;
